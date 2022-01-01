@@ -18,9 +18,9 @@ public class CustomerService {
 	private CustomerRepo customerRepo;
 	private ValidationRegex validationRegex;
 	
-	public CustomerService(CustomerRepo customerRepo,ValidationRegex validationRegex) {
+	public CustomerService(CustomerRepo customerRepo, ValidationRegex validationRegex) {
 		this.customerRepo = customerRepo;
-		this.validationRegex = validationRegex;		
+		this.validationRegex = validationRegex;	
 	}
 	
 	public List<Customer> getAllCustomers() {
