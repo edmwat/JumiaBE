@@ -15,7 +15,7 @@ import com.edward.jumiaExercise.service.CustomerService;
 
 @RestController
 @RequestMapping("/phone")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200","https://deploymenttest-313512.uc.r.appspot.com","http://localhost:4000"})
 public class CustomerController {
 	
 	private CustomerService customerService;
